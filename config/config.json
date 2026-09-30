@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-migration-banner-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spFxMigrationBanner/SpFxMigrationBannerApplicationCustomizer.js",
+          "manifest": "./src/extensions/spFxMigrationBanner/SpFxMigrationBannerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxMigrationBannerApplicationCustomizerStrings": "lib/extensions/spFxMigrationBanner/loc/{locale}.js"
+  }
+}

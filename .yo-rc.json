@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.3",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "sp-fx-migration-banner",
+    "libraryId": "8362a2c1-db73-40db-99c2-13dd49db5701",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFxMigrationBanner",
+    "solutionShortDescription": "SPFxMigrationBanner description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SpFxMigrationBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="7a33743b-bd78-4e40-9d1d-5b84f99b8b5f"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
