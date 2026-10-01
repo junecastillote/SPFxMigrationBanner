@@ -2,6 +2,8 @@
 
 A SharePoint Framework (SPFx) Application Customizer that displays a configurable migration notice on modern SharePoint Online sites.
 
+![SPFx Migration Banner](dev_notes/images/13-final-banner-source-site.png)
+
 The banner can provide:
 
 - A configurable title and message
