@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "7a33743b-bd78-4e40-9d1d-5b84f99b8b5f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "bannerTitle": "⚠ MIGRATION NOTICE",
+            "bannerMessage": "This site has moved to the new Microsoft 365 tenant. Please use the new location going forward.",
+            "targetSiteUrl": "https://poshlab1.sharepoint.com/sites/TechInsiders",
+            "retirementDate": "31 December 2026",
+            "faqUrl": "https://poshlab1.sharepoint.com/sites/MigrationFAQ"
+          }
+        }
+      }
+    },
+    "spFxMigrationBanner": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "7a33743b-bd78-4e40-9d1d-5b84f99b8b5f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "bannerTitle": "⚠ MIGRATION NOTICE",
+            "bannerMessage": "This site has moved to the new Microsoft 365 tenant. Please use the new location going forward.",
+            "targetSiteUrl": "https://poshlab1.sharepoint.com/sites/TechInsiders",
+            "retirementDate": "31 December 2026",
+            "faqUrl": "https://poshlab1.sharepoint.com/sites/MigrationFAQ"
+          }
+        }
+      }
+    }
+  }
+}
