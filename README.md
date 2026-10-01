@@ -13,7 +13,7 @@ The banner can provide:
 - A primary **Go to New Site** action
 - A secondary **Migration FAQ** action
 
-The solution is designed for tenant-to-tenant Microsoft 365 migrations. Deploy the package tenant-wide, then activate and configure the banner only on selected sites through site-scoped SharePoint custom actions.
+The solution is designed for SharePoint Online. Deploy the package tenant-wide, then activate and configure the banner only on selected sites through site-scoped SharePoint custom actions.
 
 > This project targets modern SharePoint Online pages and uses the supported SPFx `PlaceholderName.Top` placeholder. Classic SharePoint pages require a separate fallback approach.
 
